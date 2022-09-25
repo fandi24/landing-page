@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+body {
+    font-family: Roboto;
+    font-size: 18px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section {
+    padding: 80px 10%;   
+}
+
+.section.one {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+.content {
+    padding-right: 20px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtitle {
+    margin-bottom: 16px;
+}
+
+.bt-main {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
+.placeholder {
+    background-color: #fafafa;
+    color: black;
+    width: 850px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.two {
+    text-align: center;
+}
+
+.title-two {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section.three {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.author {
+    text-align: right;
+    font-weight: 700;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+}
+
+.bt-main.light {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
